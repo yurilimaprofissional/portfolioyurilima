@@ -139,7 +139,40 @@ section.topo-do-site .flex {
 section.especialidades {
     padding-top: 150px;
     margin: auto;
-    color:white
+    color:white;
+    
+
+}
+
+div.esflex {
+    padding: 50px;
+    display: inline-flex;
+    background-color: rgb(149, 125, 253);
+    border-radius: 30px;
+}
+
+div.html {
+    padding: 20px;
 }
 
 
+div.css {
+    padding: 20px;
+}
+
+div.javascript {
+    padding: 20px;
+}
+
+div.python {
+    padding: 20px;
+}
+
+div.react {
+    padding: 20px;
+}
+
+
+div.mysql {
+    padding: 20px;
+}
