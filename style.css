@@ -27,9 +27,8 @@ body {
 
 header {
     padding: 40px 4%;
+    background-color: rgb(0, 0, 0);
     
-
-
 }
 
 header > .interface {
@@ -41,11 +40,38 @@ header > .interface {
 }
 
 header a {
-    color: white;
-    
+    color: rgb(85, 33, 170);
+    text-decoration: none;
+    font-weight: bolder;
+    display: inline-block;
+}
+
+header a:hover {
+    color:rgb(149, 125, 253);
+    transform: scale(1.10);
 }
 
 header nav ul {
     list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 40px;
+}
+
+header .contato button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(149, 125, 253);
+    border: 0px;
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+
+header .contato button:hover {
+    box-shadow: 0px 0px 8px rgb(168, 151, 245) ;
 }
 
