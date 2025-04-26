@@ -144,6 +144,11 @@ section.especialidades {
 
 }
 
+section.especialidades > div.interface h1 {
+    padding-bottom: 40px;
+    margin-left: 300px;
+}
+
 div.esflex {
     padding: 50px;
     display: inline-flex;
@@ -158,6 +163,8 @@ div.html {
 
 div.css {
     padding: 20px;
+    
+    
 }
 
 div.javascript {
