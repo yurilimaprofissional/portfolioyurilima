@@ -144,42 +144,82 @@ section.especialidades {
 
 }
 
-section.especialidades > div.interface h1 {
+section.especialidades > div.interface {
+    display: flex;
+}
+
+section.especialidades > h1 {
     padding-bottom: 40px;
-    margin-left: 300px;
+    text-align: center;
+    font-size: 30px;
 }
 
 div.esflex {
     padding: 50px;
     display: inline-flex;
     background-color: rgb(149, 125, 253);
-    border-radius: 30px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px black;
+    margin: auto;
+    border: 2px solid black;
+    
+    
 }
 
 div.html {
     padding: 20px;
 }
 
-
-div.css {
-    padding: 20px;
-    
+div.html:hover {
+    transform: scale(1.05);
     
 }
 
+
+div.css {
+    padding: 20px;
+
+}
+
+div.css:hover {
+    transform: scale(1.05);
+    
+}
+
+
 div.javascript {
     padding: 20px;
+}
+
+div.javascript:hover {
+    transform: scale(1.05);
+    
 }
 
 div.python {
     padding: 20px;
 }
 
+div.python:hover {
+    transform: scale(1.05);
+    
+}
+
 div.react {
     padding: 20px;
+}
+
+div.react:hover {
+    transform: scale(1.05);
+    
 }
 
 
 div.mysql {
     padding: 20px;
+}
+
+div.mysql:hover {
+    transform: scale(1.05);
+    
 }
