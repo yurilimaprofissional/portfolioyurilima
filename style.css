@@ -107,10 +107,9 @@ section.topo-do-site .flex {
     padding-bottom: 20px;
 }
 
-.topo-do-site p {
+.topo-do-site h2 {
     color: white;
-    font-weight: bolder;
-    line-height: 20px;
+    line-height: 30px;
     
 }
 
@@ -156,6 +155,7 @@ section.especialidades > h1 {
 
 div.esflex {
     padding: 50px;
+    margin-bottom: 30px;
     display: inline-flex;
     background-color: rgb(149, 125, 253);
     border-radius: 50px;
@@ -233,13 +233,24 @@ div.mysql:hover {
 /*-------------------------------------------*/
 
 section.sobre {
+    
     padding: 40px 4%;
+
 }
+
+
 
 section.sobre .flex {
     align-items: center;
     gap: 60px;
 }
+
+
+section.sobre .flex .txt-sobre h2 {
+
+    padding-top: 70px;
+}
+
 
 .sobre .txt-sobre {
     color: white;
