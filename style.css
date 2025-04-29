@@ -285,10 +285,21 @@ section.sobre .flex .txt-sobre h2 {
 section.portfólio {
     padding: 80px 4%;
     box-shadow: 0px 0px 40px 10px rgba(255, 255, 255, 0.171);
+
 }
 
 section.portfólio h2 {
     color: white;
     font-size: 30px;
     padding-left: 37vw;
+}
+
+section.portfólio .flex {
+    justify-content: space-around;
+}
+
+.img-port {
+    width: 360px;
+    height: 460px;
+    background-color: rgb(168, 151, 245);
 }
