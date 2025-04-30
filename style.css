@@ -339,3 +339,68 @@ section.portfólio .flex {
 .overlay:hover {
     opacity: 1;
 }
+
+
+
+
+/*--------------------------------------------*/
+/*----------- ESTILO DO FORMULÁRIO ---------- */
+/*--------------------------------------------*/
+
+section.formulário {
+    padding: 80px 4%;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+
+}
+
+form input, textarea {
+    width: 100%;
+    background-color: rgb(168, 151, 245);
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 20px;
+    color: white;
+    font-size: 18px;
+
+
+}
+
+
+form textarea {
+
+    resize: none;
+    color: white;
+}
+
+form .enviar {
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+
+form .enviar input {
+    width: 120px;
+    background-color: ;
+    font-weight: 700px;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+form .enviar input:hover {
+    box-shadow: 0px 0px 8px rgb(168, 151, 245) ;
+    transform: scale(1.1);
+
+}
+
