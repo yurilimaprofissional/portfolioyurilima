@@ -292,7 +292,7 @@ section.portfólio h2 {
     color: white;
     font-size: 30px;
     padding-left: 37vw;
-    margin: auto;
+    margin: 0 auto;
 }
 
 section.portfólio .flex {
@@ -505,6 +505,8 @@ div.line p, a {
     }
 
     section.portfólio h2 {
+        
+        margin-left: -50%;
         
     }
     
