@@ -351,6 +351,13 @@ section.formulário {
     padding: 80px 4%;
 }
 
+section.formulário h2 {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    padding-bottom: 30px;
+}
+
 form {
     max-width: 500px;
     margin: 0 auto;
@@ -402,5 +409,23 @@ form .enviar input:hover {
     box-shadow: 0px 0px 8px rgb(168, 151, 245) ;
     transform: scale(1.1);
 
+}
+
+
+
+
+/*--------------------------------------------*/
+/*----------- ESTILO DO RODAPÉ ---------- */
+/*--------------------------------------------*/
+
+footer {
+    padding: 60px 4%;
+    box-shadow: 0px 0px 8px rgb(168, 151, 245) ;
+}
+
+div.line p, a {
+    color: white;
+    font-size: 20px;
+    
 }
 
