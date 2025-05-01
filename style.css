@@ -450,5 +450,29 @@ div.line p, a {
         display: none;
     }
 
-   
+
+    /* TOPO DO SITE */
+
+    section.topo-do-site {
+        padding: 20px 8%;
+
+
+    }
+
+
+
+    .topo-do-site h1 {
+        font-size: 30px;
+        
+    }
+
+    .topo-do-site .img-topo-site img {
+        width: 100%;
+    
+    
+    }
+
+    section.topo-do-site .flex {
+        gap: 40px;
+    }
 }
