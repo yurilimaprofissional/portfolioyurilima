@@ -292,6 +292,7 @@ section.portfólio h2 {
     color: white;
     font-size: 30px;
     padding-left: 37vw;
+    margin: auto;
 }
 
 section.portfólio .flex {
@@ -475,4 +476,22 @@ div.line p, a {
     section.topo-do-site .flex {
         gap: 40px;
     }
+
+    /* PROJETOS */
+
+    section.portfólio {
+        padding: 80px 8%;
+    }
+
+    .img-port {
+        width: 100%;
+        max-width: 360px;
+        margin: 0 auto;
+                
+    }
+
+    section.portfólio .flex {
+        gap: 60px;
+    }
+        
 }
