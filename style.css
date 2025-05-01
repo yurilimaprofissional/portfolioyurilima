@@ -429,3 +429,26 @@ div.line p, a {
     
 }
 
+@media screen and (max-width: 1020px){
+    /* CLASSES GERAIS */
+    .flex {
+        flex-direction: column;
+    }
+
+    .topo-do-site .flex {
+        flex-direction: column-reverse;
+    }
+
+    .esflex {
+        flex-direction: column;
+    }
+
+
+
+    /* CABEÇALHO */
+    .menu-desktop, .contato {
+        display: none;
+    }
+
+   
+}
