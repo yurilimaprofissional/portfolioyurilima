@@ -430,6 +430,14 @@ div.line p, a {
     
 }
 
+
+
+
+/*--------------------------------------------*/
+/*----------- MEDIA QUERY ---------- */
+/*--------------------------------------------*/
+
+
 @media screen and (max-width: 1020px){
     /* CLASSES GERAIS */
     .flex {
@@ -477,6 +485,8 @@ div.line p, a {
         gap: 40px;
     }
 
+
+
     /* PROJETOS */
 
     section.portfólio {
@@ -493,5 +503,10 @@ div.line p, a {
     section.portfólio .flex {
         gap: 60px;
     }
+
+    section.portfólio h2 {
+        
+    }
+    
         
 }
