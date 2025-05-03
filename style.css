@@ -54,7 +54,7 @@ header a {
     display: inline-block;
 }
 
-header a:hover {
+header nav.menu-desktop a:hover {
     color:rgb(149, 125, 253);
     transform: scale(1.10);
 }
@@ -63,7 +63,7 @@ header nav ul {
     list-style-type: none;
 }
 
-header nav ul li {
+header nav.menu-desktop ul li {
     display: inline-block;
     padding: 0 40px;
 }
@@ -81,6 +81,36 @@ header .contato button {
 
 header .contato button:hover {
     box-shadow: 0px 0px 8px rgb(168, 151, 245) ;
+}
+
+
+/* ESTILO MENU MOBILE */
+
+.menu-mobile {
+    background-color: red;
+    height: 100%vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999999;
+    width: 70%;
+}
+
+.menu-mobile nav ul {
+    text-align: right;
+
+}
+
+.menu-mobile nav ul li a {
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 20px 4%;
+
+}
+
+.menu-mobile nav ul li a:hover {
+    background-color: green;
 }
 
 
