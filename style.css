@@ -94,9 +94,12 @@ header .contato button:hover {
     color: rgb(85, 33, 170);
     height: 50px;
     width: 40px;
-    
-    
+     
 
+}
+
+.abrir-menu{
+    display: none;
 }
 
 .menu-mobile {
@@ -543,6 +546,10 @@ div.line p, a {
     /* CABEÇALHO */
     .menu-desktop, .contato {
         display: none;
+    }
+
+    .abrir-menu{
+        display: block;
     }
 
 
