@@ -390,9 +390,10 @@ section.portfólio .flex {
     
 }
 
+
 .img-port {
-    width: 360px;
-    height: 460px;
+    width: 160px;
+    height: 200px;
     background-color: rgb(168, 151, 245);
     background-size: cover;
     background-position: 100% 0%;
@@ -400,6 +401,7 @@ section.portfólio .flex {
     position: relative;
     
 }
+
 
 .img-port:hover {
     background-position: 100% 100%;
